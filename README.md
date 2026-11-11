@@ -96,8 +96,8 @@ For full Apache Iceberg functionality, configure an external volume. The demo in
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/il-giro-de-fito-snowflake-demo.git
-cd il-giro-de-fito-snowflake-demo
+git clone https://github.com/bigfito/il-giro-de-fito.git
+cd il-giro-de-fito
 
 # Install Snowflake connector (optional, for local execution)
 pip install snowflake-connector-python snowflake-snowpark-python
@@ -115,7 +115,7 @@ il-giro-de-fito-snowflake-demo/
 │
 ├── README.md                              # This file
 ├── il_giro_de_fito_snowflake_demo.ipynb   # Main demo notebook
-└── LICENSE                                # License file (optional)
+└── LICENSE                                # License file
 ```
 
 ### Snowflake Objects Created
